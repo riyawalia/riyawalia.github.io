@@ -1,0 +1,72 @@
+body {
+	background: url("../img/index-background.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: #FFF0F5;
+}
+img {
+	border-radius: 100%;
+	border: ridge 1px gray;
+	display: block;
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 1%;
+}
+.content {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+a:link {
+	text-decoration: none;
+	font-family: 'Overlock', cursive;
+	font-size: 27px;	
+	color: #FFF0F5;
+}
+a:visited {
+	color: #FFF0F5;
+}
+a:hover{
+	border-bottom: 0.5px solid white;
+}
+a:active {
+	border-bottom: 0.5px solid white;
+}
+ul {
+	position: fixed;
+	width: 93%;
+	margin: 0 auto;
+	text-align: center;
+	bottom: 40%;
+	font-weight: bolder;
+	z-index: 10;
+}
+li {
+	display: inline;
+	padding: 30px;
+}
+.name {
+	font-size: 108px;
+	font-family: 'Roboto Slab', serif;
+	font-variant: small-caps;
+	font-weight: lighter;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 2%;
+}
+#caption {
+	position: fixed;
+	right : 2%;
+	bottom: 1%;
+	font-family: 'Nunito Sans', sans-serif;
+	color: lightgray;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+#about {
+	position: fixed;
+    font-family: 'Overlock', cursive;
+    font-size: 26px;
+    width: 100%;
+	padding-top: 10%;
+}
