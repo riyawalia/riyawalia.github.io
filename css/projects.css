@@ -12,12 +12,12 @@ header {
 a:link {
 	text-decoration: none;
 	font-weight:bold;
-	color: white;
+	color: lightsteelblue;
 	font-family: 'Overlock', cursive;
-	font-size: 25px;
+	font-size: 35px;
 }
 a:visited {
-    color: white;
+    color: lightsteelblue;
 }
 a:hover{
     border-bottom: 0.5px solid white;
@@ -35,26 +35,31 @@ ul {
 	right: 15px;
 }
 #heading {
-	color: lightblue;
-	position: relative; 
-	top: 60px;
-	left: 40%; 
+	color: lightcyan;
+	position: fixed; 
+    top: -40px; 
+    left: 30px; 
 	font-family: 'Overlock', cursive;
 	font-size: 70px;
 }
 .icons_container {
-    margin: 50px 100px 0 100px; 
+    margin: 150px 100px 0 100px;
     height: 100%; 
 }
 .icon {
     background-color: black;
-    color: lightblue;
+    opacity: 0.6; 
+    color: white;
     border: groove gray;
     height: 200px;
     width: 200px;
     border-radius: 100%;
     margin: 50px 100px 0 100px;
     display: inline;
+}
+.icon:hover {
+    opacity: 1; 
+    transition: opacity 0.9s ease; 
 }
 .icon h1 {
     text-align: center;
