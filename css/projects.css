@@ -16,13 +16,13 @@ a:link {
 	font-family: 'Overlock', cursive;
 	font-size: 35px;
 }
-a:visited {
+ul a:visited {
     color: lightsteelblue;
 }
-a:hover{
+ul a:hover{
     border-bottom: 0.5px solid white;
 }
-a:active {
+ul a:active {
     border-bottom: 0.5px solid white;
 }
 li {
@@ -64,5 +64,22 @@ ul {
 .icon h1 {
     text-align: center;
     line-height: 1.7em;
+    font-family: 'Open Sans', sans-serif;
+}
+#connect_frame {
+    position: relative;
+    height: 700px; 
+    width: 450px;
+    visibility: none;
+    margin: 0 auto; 
+    border-radius: 30px;
+    border: groove gray; 
+}
+.icon a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 1.7em;
+    font-size: 1.17em;
     font-family: 'Open Sans', sans-serif;
 }

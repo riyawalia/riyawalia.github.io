@@ -9,6 +9,12 @@
 <link rel="icon" href="img/icon.png"/>
 </head>
 <body>
+    <script>
+        $("#icon").click(function() {
+            $('#connect_frame').show(); 
+        });
+    </script>
+
 <ul> 
 <li> <a href="index.html"> home </a></li>
 <li> <a href="projects.html"> projects </a></li>
@@ -20,7 +26,7 @@
     <h1 id="heading">projects</h1>
     <div class="icons_container">
         <button class="icon">
-            <h1> Database Importing Tool </h1>
+            <h1> <a href="ImportingToolREADME.pdf" target="_blank"> Importing Tool </a></h1>
         </button>
         <button class="icon">
             <h1> Pathways </h1>
@@ -38,5 +44,10 @@
             <h1> Minesweeper </h1>
         </button>
     </div>
+    <!-- Frames that pop up upon clicking icons
+    <div id="connect_frame">
+        <iframe src="https://connecteasily.github.io/connect/" height="700" width="450" visibility="hidden"> </iframe>
+        </div>
+        -->
  </body>
 </html>

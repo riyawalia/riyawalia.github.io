@@ -1,11 +1,12 @@
 body {
-	background: url("../img/index-background.jpg") no-repeat center center fixed;
-	background-size: cover;
-	color: #FFF0F5;
+    background: url("../img/index-background.jpg") no-repeat center center fixed;
+    background: url("https://ak8.picdn.net/shutterstock/videos/945574/thumb/1.jpg?i10c=img.resize(height:160)") no-repeat center center fixed;
+    background-size: cover;
+    color: #FFF0F5;
 }
 img {
 	border-radius: 100%;
-	border: ridge 1px gray;
+	border: inset 1px lightsteelblue;
 	display: block;
 	height: 200px;
 	width: 200px;
@@ -20,17 +21,17 @@ img {
 a:link {
 	text-decoration: none;
 	font-family: 'Overlock', cursive;
-	font-size: 27px;	
-	color: #FFF0F5;
+	font-size: 35px;	
+    color: lightsteelblue;
 }
 a:visited {
-	color: #FFF0F5;
+    color: lightsteelblue; 
 }
 a:hover{
-	border-bottom: 0.5px solid white;
+	border-bottom: 1.5px groove white;
 }
 a:active {
-	border-bottom: 0.5px solid white;
+	border-bottom: 1.5px groove white;
 }
 ul {
 	position: fixed;
@@ -53,14 +54,15 @@ li {
 	width: 100%;
 	margin: 0 auto;
 	padding-top: 2%;
+    color: lightcyan; 
 }
 #caption {
 	position: fixed;
 	right : 2%;
 	bottom: 1%;
 	font-family: 'Nunito Sans', sans-serif;
-	color: lightgray;
-	font-size: 22px;
+	color: lightcyan;
+	font-size: 25px;
 	letter-spacing: 1px;
 }
 #about {
