@@ -58,14 +58,11 @@ ul {
     width: 200px;
     border-radius: 100%;
     margin: 50px 100px 0 100px;
-    display: inline-block;
+    display: inline;
     box-sizing:border-box
 }
 .icon:hover {
-    height: 220px; 
-    width: 220px; 
     opacity: 0.9; 
-    transition: opacity 0.9s ease; 
     transition: all 0.9s ease; 
 }
 .icon h1 {
