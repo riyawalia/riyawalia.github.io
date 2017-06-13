@@ -59,10 +59,9 @@ ul {
     border-radius: 100%;
     margin: 50px 100px 0 100px;
     display: inline;
-    box-sizing:border-box
 }
 .icon:hover {
-    opacity: 0.9; 
+    opacity: 0.8; 
     transition: all 0.9s ease; 
 }
 .icon h1 {
