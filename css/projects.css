@@ -43,8 +43,8 @@ ul {
 	font-size: 70px;
 }
 .icons_container {
-    margin: 150px 100px 0 100px;
-    height: 100%; 
+    width: 80%; 
+    margin: 150px auto;
 }
 .icon {
     background-color: black;
