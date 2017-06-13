@@ -28,10 +28,9 @@ a:visited {
     color: lightsteelblue; 
 }
 a:hover{
-	border-bottom: 1.5px groove white;
-}
-a:active {
-	border-bottom: 1.5px groove white;
+    color:white; 
+    font-size: 39px; 
+    transition: font-size 0.7s ease; 
 }
 ul {
 	position: fixed;
