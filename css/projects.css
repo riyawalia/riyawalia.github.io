@@ -46,8 +46,8 @@ ul {
 	font-size: 70px;
 }
 .icons_container {
-    width: 80%; 
-    margin: 150px auto;
+    width: 90%; 
+    margin: 100px auto;
 }
 .icon {
     background-color: black;
@@ -57,8 +57,8 @@ ul {
     height: 200px;
     width: 200px;
     border-radius: 100%;
-    margin: 50px 100px 0 100px;
-    display: inline;
+     margin: 50px 100px 0 100px; 
+    display: inline-block;
 }
 .icon:hover {
     opacity: 0.8; 
