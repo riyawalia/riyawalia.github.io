@@ -19,17 +19,17 @@ img {
 	text-align: center;
 }
 a:link {
-	text-decoration: none;
-	font-family: 'Overlock', cursive;
-	font-size: 35px;	
+    text-decoration: none;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 39px;
     color: lightsteelblue;
 }
 a:visited {
     color: lightsteelblue; 
 }
 a:hover{
-    color:white; 
-    font-size: 39px; 
+    color: lightcyan; 
+    font-size: 43px; 
     transition: font-size 0.7s ease; 
 }
 ul {
@@ -46,28 +46,38 @@ li {
 	padding: 30px;
 }
 .name {
-	font-size: 108px;
-	font-family: 'Roboto Slab', serif;
-	font-variant: small-caps;
-	font-weight: lighter;
-	width: 100%;
-	margin: 0 auto;
-	padding-top: 2%;
-    color: lightcyan; 
+    font-size: 150px;
+    font-family: 'Crushed', cursive;
+    font-variant: small-caps;
+    font-weight: lighter;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 1%;
+    color: lightcyan;
 }
-#caption {
-	position: fixed;
-	right : 2%;
-	bottom: 1%;
-	font-family: 'Nunito Sans', sans-serif;
-	color: lightcyan;
-	font-size: 25px;
-	letter-spacing: 1px;
+#currentStatus {
+    position: fixed;
+    right: 2%;
+    bottom: 1%;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: lightsteelblue;
+    font-size: 27px;
+    letter-spacing: 1px;
 }
 #about {
-	position: fixed;
-    font-family: 'Overlock', cursive;
-    font-size: 26px;
+    position: fixed;
+    font-size: 27px;
     width: 100%;
-	padding-top: 10%;
+    padding-top: 8%;
+    color: lightcyan;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+
+#active_link {
+    color: white;
+    padding-bottom: 5px;
+    padding-right: 1px;
+    padding-left: 1px;
+    border-bottom: 2px solid lightsteelblue;
 }

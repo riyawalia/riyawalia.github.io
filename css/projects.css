@@ -1,6 +1,6 @@
 body {
-	background: url("../img/projects-background.jpg") no-repeat center center fixed;
-	background-size: cover;
+    background: url("../img/projects-background.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 header {
 	position: fixed;
@@ -10,18 +10,18 @@ header {
 	background: rgba (0 0 0 0.5);
 }
 a:link {
-	text-decoration: none;
-	font-weight:bold;
-	color: lightsteelblue;
-	font-family: 'Overlock', cursive;
-	font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    color: lightsteelblue;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 39px;
 }
 ul a:visited {
     color: lightsteelblue;
 }
 ul a:hover{
-    color: white; 
-    font-size: 39px; 
+    color: lightcyan; 
+    font-size: 43px; 
     transition: font-size 0.7s ease; 
     /* border-bottom: 1.5px solid lightsteelblue; */
 }
@@ -38,12 +38,14 @@ ul {
 	right: 15px;
 }
 #heading {
-	color: lightcyan;
-	position: fixed; 
-    top: -40px; 
-    left: 30px; 
-	font-family: 'Overlock', cursive;
-	font-size: 70px;
+    color: lightcyan;
+    position: fixed;
+    top: -40px;
+    left: 30px;
+    font-family: 'Crushed', cursive;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-size: 80px;
 }
 .icons_container {
     width: 90%; 
@@ -51,23 +53,27 @@ ul {
 }
 .icon {
     background-color: black;
-    opacity: 0.6; 
+    opacity: 0.6;
     color: white;
     border: groove gray;
     height: 200px;
     width: 200px;
     border-radius: 100%;
-     margin: 50px 100px 0 100px; 
+    margin: 50px 100px 0 100px;
     display: inline-block;
+    font-family: 'Crushed', cursive;
+    font-variant: small-caps;
+    font-size: 15px;
+
 }
 .icon:hover {
     opacity: 0.8; 
     transition: all 0.9s ease; 
+    color: white;
 }
 .icon h1 {
     text-align: center;
     line-height: 1.7em;
-    font-family: 'Open Sans', sans-serif;
 }
 #connect_frame {
     position: relative;
@@ -82,12 +88,9 @@ ul {
     text-decoration: none;
     color: white;
     text-align: center;
-    line-height: 1.7em;
-    font-size: 1.17em;
-    font-family: 'Open Sans', sans-serif;
 }
 #active_link {
-    color: white;
+    color: lightcyan;
     padding-bottom: 5px;
     padding-right: 1px; 
     padding-left: 1px; 
