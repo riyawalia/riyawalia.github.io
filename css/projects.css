@@ -38,8 +38,8 @@ ul {
 	right: 15px;
 }
 #heading {
-    color: lightcyan;
     position: fixed;
+    color: lightcyan;
     top: -40px;
     left: 30px;
     font-family: 'Crushed', cursive;
@@ -48,6 +48,7 @@ ul {
     font-size: 80px;
 }
 .icons_container {
+    postion: fixed;
     width: 90%; 
     margin: 100px auto;
 }
@@ -95,5 +96,46 @@ ul {
     padding-right: 1px; 
     padding-left: 1px; 
     border-bottom: 2px solid lightsteelblue;
+    
+}
+
+@media screen and (max-width: 698px) and (min-width: 300px) {
+    #heading {
+        font-size: 30px;
+        position: relative;
+        top: -8%;
+    }
+    ul {
+        position: relative;
+        top: 60px;
+        right: 18px;
+    }
+    li {
+        padding: 7px;
+    }
+    a:link {
+        font-size: 20px;
+    }
+    .icon {
+        height: 120px; 
+        width: 120px;
+        font-size: 10px;
+        line-height: 1em;
+    }
+    .icons_container {
+        margin-top: -10px;
+        overflow: auto; 
+        overflow-y: scroll; 
+    }
+
+}
+
+@media screen and (max-width: 1080px) and (min-width: 698px) {
+    ul {
+        top: 5%;
+    }
+    .icons_container {
+        margin-top: 20%;
+    }
     
 }

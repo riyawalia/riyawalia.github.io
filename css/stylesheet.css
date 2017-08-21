@@ -1,6 +1,6 @@
 body {
     background: url("../img/index-background.jpg") no-repeat center center fixed;
-    background: url("https://ak3.picdn.net/shutterstock/videos/9459434/thumb/1.jpg") no-repeat center center fixed;
+    background: url("http://wallpapercave.com/wp/FjnZ25X.jpg") no-repeat center center fixed;
     background-size: cover;
     color: #FFF0F5;
 }
@@ -80,4 +80,39 @@ li {
     padding-right: 1px;
     padding-left: 1px;
     border-bottom: 2px solid lightsteelblue;
+}
+
+@media screen and (max-width: 698px) and (min-width: 400px)
+{
+    img {
+        height: 100px; 
+        width: 100px;
+    }
+    .name {
+        margin-top: 10px;
+        font-size: 80px;
+    }
+    ul {
+        position: fixed; 
+        bottom: 15%; 
+        right: 5%;
+
+    }
+    #about {
+        margin-top: -10px;
+        font-size: 18px;
+    }
+    li {
+        display: block;
+        padding: 5px;
+    }
+    a:link {
+        font-size: 26px;
+    }
+    a:hover {
+        font-size: 26px;
+    }
+    #currentStatus{
+        font-size: 17px;
+    }
 }
