@@ -22,7 +22,7 @@ ul a:visited {
 ul a:hover{
     color: lightcyan; 
     font-size: 43px; 
-    transition: font-size 0.7s ease; 
+    transition: all 0.7s ease; 
     /* border-bottom: 1.5px solid lightsteelblue; */
 }
 ul a:active {
@@ -40,12 +40,18 @@ ul {
 #heading {
     position: fixed;
     color: lightcyan;
+    color: lightsteelblue;
     top: -40px;
     left: 30px;
     font-family: 'Crushed', cursive;
     font-variant: small-caps;
     font-weight: lighter;
     font-size: 80px;
+}
+#heading:hover {
+    color: lightcyan; 
+    font-size: 83px;
+    transition: all 0.7s ease; 
 }
 .icons_container {
     postion: fixed;
